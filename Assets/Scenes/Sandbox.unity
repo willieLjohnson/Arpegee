@@ -911,8 +911,8 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1617122228}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Avatar: {fileID: 9000000, guid: d288a0e4a2d923b46898986e979da643, type: 3}
+  m_Controller: {fileID: 9100000, guid: 9170689f77267b942bb4f9dd46d831a9, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1577,12 +1577,12 @@ PrefabInstance:
     - target: {fileID: 29462668986420650, guid: 9ef5ba53ad20bbd40a75826d0f430975,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 21.98
+      value: 11.97
       objectReference: {fileID: 0}
     - target: {fileID: 29462668986420650, guid: 9ef5ba53ad20bbd40a75826d0f430975,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -21.21
+      value: -9.28
       objectReference: {fileID: 0}
     - target: {fileID: 29462668986420650, guid: 9ef5ba53ad20bbd40a75826d0f430975,
         type: 3}
@@ -1677,6 +1677,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1906363784050990806, guid: d59070423298929458bad2b7e9342337,
+        type: 3}
+      propertyPath: m_Speed
+      value: 5.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 1906363784050990806, guid: d59070423298929458bad2b7e9342337,
+        type: 3}
+      propertyPath: m_AngularSpeed
+      value: 2000
+      objectReference: {fileID: 0}
+    - target: {fileID: 1906363784050990806, guid: d59070423298929458bad2b7e9342337,
+        type: 3}
+      propertyPath: m_Acceleration
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d59070423298929458bad2b7e9342337, type: 3}
